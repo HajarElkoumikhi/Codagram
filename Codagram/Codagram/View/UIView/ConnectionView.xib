@@ -10,7 +10,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConnectionView" customModule="Codagram" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConnectionView" customModule="Codagram" customModuleProvider="target">
+            <connections>
+                <outlet property="loginButtonOutlet" destination="611-9f-xDQ" id="EL9-4c-6iw"/>
+                <outlet property="mailField" destination="bCU-PL-71E" id="ElS-gn-Oj8"/>
+                <outlet property="passwordField" destination="Xlg-xl-8Rw" id="Gel-Ym-pwD"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -28,6 +34,9 @@
                         <constraint firstAttribute="height" constant="76" id="I4A-74-YGQ"/>
                     </constraints>
                     <state key="normal" title="Login"/>
+                    <connections>
+                        <action selector="loginButtonAction:" destination="-1" eventType="touchUpInside" id="rJZ-bA-aU1"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xlg-xl-8Rw">
                     <rect key="frame" x="20" y="350" width="374" height="30"/>
