@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Codagram
 //
-//  Created by Elitia Candy on 04/07/2019.
+//  Created by Elitia on 04/07/2019.
 //  Copyright © 2019 Hajar EL KOUMIKHI. All rights reserved.
 //
 
@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Initilizing and launching the connectionController since we're not using a main storyboard
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = ConnectionController()
+        
+        //Firebase configuration
         FirebaseApp.configure()
         return true
     }

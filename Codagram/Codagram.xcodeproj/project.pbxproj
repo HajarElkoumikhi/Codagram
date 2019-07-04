@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4CC9295422CDFD5400839C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC9295322CDFD5400839C22 /* Assets.xcassets */; };
+		4CC9295922CDFFE500839C22 /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9295822CDFFE500839C22 /* ConnectionController.swift */; };
 		4CD1E57522CDF1F900D48F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1E57422CDF1F900D48F43 /* AppDelegate.swift */; };
 		4CD1E57722CDF1F900D48F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1E57622CDF1F900D48F43 /* ViewController.swift */; };
-		4CD1E57A22CDF1F900D48F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1E57822CDF1F900D48F43 /* Main.storyboard */; };
 		4CD1E57F22CDF1FA00D48F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1E57D22CDF1FA00D48F43 /* LaunchScreen.storyboard */; };
 		4CD1E58722CDF76100D48F43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1E58622CDF76100D48F43 /* GoogleService-Info.plist */; };
 		4E64827E0CD1B47B33B52E3A /* Pods_Codagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E276FE03777E958F5686D8FA /* Pods_Codagram.framework */; };
@@ -19,10 +19,10 @@
 /* Begin PBXFileReference section */
 		212275ED601E352C9E931D6B /* Pods-Codagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codagram.debug.xcconfig"; path = "Target Support Files/Pods-Codagram/Pods-Codagram.debug.xcconfig"; sourceTree = "<group>"; };
 		4CC9295322CDFD5400839C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CC9295822CDFFE500839C22 /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
 		4CD1E57122CDF1F900D48F43 /* Codagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1E57422CDF1F900D48F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD1E57622CDF1F900D48F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CD1E57922CDF1F900D48F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD1E57E22CDF1FA00D48F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CD1E58022CDF1FA00D48F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD1E58622CDF76100D48F43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -42,6 +42,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CC9295522CDFFA500839C22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CD1E57422CDF1F900D48F43 /* AppDelegate.swift */,
+				4CC9295822CDFFE500839C22 /* ConnectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CC9295622CDFFAB00839C22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CC9295722CDFFB000839C22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4CD1E56822CDF1F900D48F43 = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +86,11 @@
 		4CD1E57322CDF1F900D48F43 /* Codagram */ = {
 			isa = PBXGroup;
 			children = (
+				4CC9295722CDFFB000839C22 /* Model */,
+				4CC9295622CDFFAB00839C22 /* View */,
+				4CC9295522CDFFA500839C22 /* Controller */,
 				4CD1E58822CDF76B00D48F43 /* plists */,
-				4CD1E57422CDF1F900D48F43 /* AppDelegate.swift */,
 				4CD1E57622CDF1F900D48F43 /* ViewController.swift */,
-				4CD1E57822CDF1F900D48F43 /* Main.storyboard */,
 				4CD1E57D22CDF1FA00D48F43 /* LaunchScreen.storyboard */,
 				4CC9295322CDFD5400839C22 /* Assets.xcassets */,
 			);
@@ -162,7 +186,6 @@
 				4CD1E57F22CDF1FA00D48F43 /* LaunchScreen.storyboard in Resources */,
 				4CD1E58722CDF76100D48F43 /* GoogleService-Info.plist in Resources */,
 				4CC9295422CDFD5400839C22 /* Assets.xcassets in Resources */,
-				4CD1E57A22CDF1F900D48F43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD1E57722CDF1F900D48F43 /* ViewController.swift in Sources */,
+				4CC9295922CDFFE500839C22 /* ConnectionController.swift in Sources */,
 				4CD1E57522CDF1F900D48F43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +247,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4CD1E57822CDF1F900D48F43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CD1E57922CDF1F900D48F43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CD1E57D22CDF1FA00D48F43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -373,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hajarElkoumikhi.Codagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -392,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hajarElkoumikhi.Codagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

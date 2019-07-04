@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ConnectionController.swift
 //  Codagram
 //
 //  Created by Elitia on 04/07/2019.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ConnectionController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+
     }
+    
 
 
 }
-
