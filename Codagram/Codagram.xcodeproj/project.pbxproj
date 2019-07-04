@@ -10,6 +10,9 @@
 		4CC9295422CDFD5400839C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC9295322CDFD5400839C22 /* Assets.xcassets */; };
 		4CC9295922CDFFE500839C22 /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9295822CDFFE500839C22 /* ConnectionController.swift */; };
 		4CC9295C22CE025C00839C22 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9295B22CE025C00839C22 /* LogoView.swift */; };
+		4CC9295E22CE287800839C22 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9295D22CE287800839C22 /* ConnectionView.swift */; };
+		4CC9296022CE28B800839C22 /* ConnectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC9295F22CE28B800839C22 /* ConnectionView.xib */; };
+		4CC9296222CE295600839C22 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9296122CE295600839C22 /* UIExtensions.swift */; };
 		4CD1E57522CDF1F900D48F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1E57422CDF1F900D48F43 /* AppDelegate.swift */; };
 		4CD1E57722CDF1F900D48F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1E57622CDF1F900D48F43 /* ViewController.swift */; };
 		4CD1E57F22CDF1FA00D48F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1E57D22CDF1FA00D48F43 /* LaunchScreen.storyboard */; };
@@ -22,6 +25,9 @@
 		4CC9295322CDFD5400839C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC9295822CDFFE500839C22 /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
 		4CC9295B22CE025C00839C22 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		4CC9295D22CE287800839C22 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		4CC9295F22CE28B800839C22 /* ConnectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnectionView.xib; sourceTree = "<group>"; };
+		4CC9296122CE295600839C22 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		4CD1E57122CDF1F900D48F43 /* Codagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1E57422CDF1F900D48F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD1E57622CDF1F900D48F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +63,10 @@
 		4CC9295622CDFFAB00839C22 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4CC9296122CE295600839C22 /* UIExtensions.swift */,
 				4CD1E57D22CDF1FA00D48F43 /* LaunchScreen.storyboard */,
 				4CC9295322CDFD5400839C22 /* Assets.xcassets */,
-				4CC9295B22CE025C00839C22 /* LogoView.swift */,
+				4CC9296322CE2E8600839C22 /* UIView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -69,6 +76,16 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4CC9296322CE2E8600839C22 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4CC9295B22CE025C00839C22 /* LogoView.swift */,
+				4CC9295D22CE287800839C22 /* ConnectionView.swift */,
+				4CC9295F22CE28B800839C22 /* ConnectionView.xib */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		4CD1E56822CDF1F900D48F43 = {
@@ -188,6 +205,7 @@
 			files = (
 				4CD1E57F22CDF1FA00D48F43 /* LaunchScreen.storyboard in Resources */,
 				4CD1E58722CDF76100D48F43 /* GoogleService-Info.plist in Resources */,
+				4CC9296022CE28B800839C22 /* ConnectionView.xib in Resources */,
 				4CC9295422CDFD5400839C22 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD1E57722CDF1F900D48F43 /* ViewController.swift in Sources */,
+				4CC9295E22CE287800839C22 /* ConnectionView.swift in Sources */,
 				4CC9295C22CE025C00839C22 /* LogoView.swift in Sources */,
+				4CC9296222CE295600839C22 /* UIExtensions.swift in Sources */,
 				4CC9295922CDFFE500839C22 /* ConnectionController.swift in Sources */,
 				4CD1E57522CDF1F900D48F43 /* AppDelegate.swift in Sources */,
 			);

@@ -7,5 +7,6 @@ target 'Codagram' do
 
   # Pods for Codagram
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
 end
