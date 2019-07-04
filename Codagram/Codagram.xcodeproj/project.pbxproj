@@ -13,6 +13,7 @@
 		4CC9295E22CE287800839C22 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9295D22CE287800839C22 /* ConnectionView.swift */; };
 		4CC9296022CE28B800839C22 /* ConnectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC9295F22CE28B800839C22 /* ConnectionView.xib */; };
 		4CC9296222CE295600839C22 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9296122CE295600839C22 /* UIExtensions.swift */; };
+		4CC9296522CE482F00839C22 /* CodagramButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9296422CE482F00839C22 /* CodagramButton.swift */; };
 		4CD1E57522CDF1F900D48F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1E57422CDF1F900D48F43 /* AppDelegate.swift */; };
 		4CD1E57722CDF1F900D48F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1E57622CDF1F900D48F43 /* ViewController.swift */; };
 		4CD1E57F22CDF1FA00D48F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1E57D22CDF1FA00D48F43 /* LaunchScreen.storyboard */; };
@@ -28,6 +29,7 @@
 		4CC9295D22CE287800839C22 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
 		4CC9295F22CE28B800839C22 /* ConnectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnectionView.xib; sourceTree = "<group>"; };
 		4CC9296122CE295600839C22 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		4CC9296422CE482F00839C22 /* CodagramButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodagramButton.swift; sourceTree = "<group>"; };
 		4CD1E57122CDF1F900D48F43 /* Codagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1E57422CDF1F900D48F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD1E57622CDF1F900D48F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,10 +65,11 @@
 		4CC9295622CDFFAB00839C22 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4CC9296122CE295600839C22 /* UIExtensions.swift */,
 				4CD1E57D22CDF1FA00D48F43 /* LaunchScreen.storyboard */,
 				4CC9295322CDFD5400839C22 /* Assets.xcassets */,
 				4CC9296322CE2E8600839C22 /* UIView */,
+				4CC9296122CE295600839C22 /* UIExtensions.swift */,
+				4CC9296422CE482F00839C22 /* CodagramButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				4CD1E57722CDF1F900D48F43 /* ViewController.swift in Sources */,
 				4CC9295E22CE287800839C22 /* ConnectionView.swift in Sources */,
+				4CC9296522CE482F00839C22 /* CodagramButton.swift in Sources */,
 				4CC9295C22CE025C00839C22 /* LogoView.swift in Sources */,
 				4CC9296222CE295600839C22 /* UIExtensions.swift in Sources */,
 				4CC9295922CDFFE500839C22 /* ConnectionController.swift in Sources */,

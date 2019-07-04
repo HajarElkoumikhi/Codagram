@@ -2,7 +2,7 @@
 //  LogoView.swift
 //  Codagram
 //
-//  Created by Elitia Candy on 04/07/2019.
+//  Created by Elitia on 04/07/2019.
 //  Copyright © 2019 Hajar EL KOUMIKHI. All rights reserved.
 //
 
