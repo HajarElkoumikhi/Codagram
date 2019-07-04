@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>280029925443-2fe411lil95bmu3j5eo71rvmucjqmufn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.280029925443-2fe411lil95bmu3j5eo71rvmucjqmufn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDxAc10LM11Di6HUzc5xUWccoiym-mtoQI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>280029925443</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>hajarElkoumikhi.Codagram</string>
+	<key>PROJECT_ID</key>
+	<string>codagram-elitia</string>
+	<key>STORAGE_BUCKET</key>
+	<string>codagram-elitia.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:280029925443:ios:1247f2d946824c1c</string>
+	<key>DATABASE_URL</key>
+	<string>https://codagram-elitia.firebaseio.com</string>
+</dict>
+</plist>
