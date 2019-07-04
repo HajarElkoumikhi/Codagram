@@ -10,9 +10,13 @@ import UIKit
 
 class ConnectionController: UIViewController {
 
+    var logoView: LogoView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        logoView = LogoView(frame: view.bounds)
+        view.addSubview(logoView)
 
     }
     
